@@ -15,7 +15,6 @@ public class Simulation {
     }
 
     public void initialize(long numberToGuess) {
-        logger.log(String.valueOf(numberToGuess));
         this.numberToGuess = numberToGuess;
     }
 
