@@ -3,6 +3,7 @@ package fr.yannislebeau;
 import fr.yannislebeau.guessgame.Player;
 import fr.yannislebeau.logger.Logger;
 import fr.yannislebeau.logger.LoggerFactory;
+import fr.yannislebeau.timer.Timer;
 
 public class Simulation {
 
@@ -36,7 +37,17 @@ public class Simulation {
         return false;
     }
 
-    public void loopUntilPlayerSucceed() {
-        while(!nextRound());
+    public void loopUntilPlayerSucceed(int iter) {
+        int i = 0;
+        Timer timer = new Timer();
+        while (!nextRound()) {
+            i++;
+            if (i >= iter) {
+                logger.log("You lose, no more try available");
+                break;
+            }
+        }
+        logger.log("Temps écoulé: " + timer.stop());
+        logger.log(String.valueOf(i));
     }
 }
