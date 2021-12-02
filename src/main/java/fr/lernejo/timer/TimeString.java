@@ -1,22 +1,8 @@
-/*
- * Copyright (c) 2021-2021.
- * Made by Zelytra :
- *  - Website : https://zelytra.fr
- *  - GitHub : http://github.zelytra.fr
- *
- * All right reserved
- */
-
-package fr.yannislebeau.timer;
+package fr.lernejo.timer;
 
 public abstract class TimeString {
 
-    /**
-     *
-     * @param arg Time in seconds
-     * @return Formated time string
-     * @throws Exception when wrong input format
-     */
+
     public static int getTime(String arg) throws Exception {
 
         int val = Integer.parseInt(arg.substring(0, arg.length() - 1));

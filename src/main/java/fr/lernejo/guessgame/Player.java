@@ -1,4 +1,4 @@
-package fr.yannislebeau.guessgame;
+package fr.lernejo.guessgame;
 
 public interface Player {
 

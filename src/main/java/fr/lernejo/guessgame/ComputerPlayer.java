@@ -1,8 +1,8 @@
-package fr.yannislebeau.guessgame;
+package fr.lernejo.guessgame;
 
-import fr.yannislebeau.Launcher;
-import fr.yannislebeau.logger.Logger;
-import fr.yannislebeau.logger.LoggerFactory;
+import fr.lernejo.Launcher;
+import fr.lernejo.logger.Logger;
+import fr.lernejo.logger.LoggerFactory;
 
 public class ComputerPlayer implements Player{
     private long guessing;
@@ -28,7 +28,7 @@ public class ComputerPlayer implements Player{
         guessing=getMean(min,max);
     }
     private long getMean(long max, long min){
-        return (max+min)/2;
+        return (max/2)+(min/2);
     }
 }
 

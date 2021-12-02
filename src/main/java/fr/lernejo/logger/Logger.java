@@ -1,4 +1,4 @@
-package fr.yannislebeau.logger;
+package fr.lernejo.logger;
 
 public interface Logger {
 

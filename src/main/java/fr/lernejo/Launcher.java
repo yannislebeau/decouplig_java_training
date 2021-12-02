@@ -1,7 +1,7 @@
-package fr.yannislebeau;
+package fr.lernejo;
 
-import fr.yannislebeau.guessgame.ComputerPlayer;
-import fr.yannislebeau.guessgame.HumanPlayer;
+import fr.lernejo.guessgame.ComputerPlayer;
+import fr.lernejo.guessgame.HumanPlayer;
 
 import java.security.SecureRandom;
 

@@ -1,7 +1,7 @@
-package fr.yannislebeau.guessgame;
+package fr.lernejo.guessgame;
 
-import fr.yannislebeau.logger.Logger;
-import fr.yannislebeau.logger.LoggerFactory;
+import fr.lernejo.logger.Logger;
+import fr.lernejo.logger.LoggerFactory;
 
 import java.util.Scanner;
 

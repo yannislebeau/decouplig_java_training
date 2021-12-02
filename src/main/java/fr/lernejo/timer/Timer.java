@@ -1,4 +1,4 @@
-package fr.yannislebeau.timer;
+package fr.lernejo.timer;
 
 public class Timer {
 

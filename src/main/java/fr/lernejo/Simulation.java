@@ -1,12 +1,11 @@
-package fr.yannislebeau;
+package fr.lernejo;
 
-import fr.yannislebeau.guessgame.Player;
-import fr.yannislebeau.logger.Logger;
-import fr.yannislebeau.logger.LoggerFactory;
-import fr.yannislebeau.timer.Timer;
+import fr.lernejo.guessgame.Player;
+import fr.lernejo.logger.Logger;
+import fr.lernejo.logger.LoggerFactory;
+import fr.lernejo.timer.Timer;
 
 public class Simulation {
-
     private final Logger logger = LoggerFactory.getLogger("simulation");
     private final Player player;
     private long numberToGuess;
